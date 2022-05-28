@@ -22,6 +22,8 @@ body {
 /* Button
 ==================*/
 .btn {
+  transition: background 0.1s linear;
+  cursor: pointer;
   border-width: 0px;
   font-size: 17px;
   display: inline-block;
@@ -32,6 +34,10 @@ body {
   color: rgb(201, 46, 58);
   background-color: rgb(85, 84, 84);
 }
+.btn:hover {
+  background-color: rgb(53, 50, 50);
+}
+
 .title {
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -51,7 +57,24 @@ body {
   width: 400px;
   font-size: 20px;
   border-color: black;
-  border-radius: 3px;
+  border-radius: 7px;
   color: rgb(177, 170, 170);
   background-color: rgb(44, 43, 43);
+}
+.holder__button {
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  background-color: rgb(235, 82, 82);
+  height: 36px;
+  width: 150px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  border-width: 0px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background 0.1s linear;
+}
+.holder__button:hover {
+  background-color: rgb(201, 65, 65);
 }
