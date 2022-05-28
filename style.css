@@ -39,3 +39,19 @@ body {
   margin-left: 70px;
   letter-spacing: 4px;
 }
+.placeholder__header {
+  display: flex;
+  padding: 20px 40px;
+  text-align: left;
+  margin-left: 26px;
+}
+
+.holder {
+  height: 30px;
+  width: 400px;
+  font-size: 20px;
+  border-color: black;
+  border-radius: 3px;
+  color: rgb(177, 170, 170);
+  background-color: rgb(44, 43, 43);
+}
