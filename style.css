@@ -1,13 +1,15 @@
+body {
+  background-color: rgb(44, 43, 43);
+  font-family: "Raleway", sans-serif;
+}
 /* Header
 ==================*/
 
-body {
-  background-color: rgb(44, 43, 43);
-}
 .header {
-  height: 215px;
-  position: absolute;
+  height: 350px;
   width: 100%;
+  border-bottom: 5px solid rgb(85, 84, 84);
+  border-top: 5px solid rgb(85, 84, 84);
 }
 
 .header__container {
@@ -45,6 +47,9 @@ body {
   margin-left: 70px;
   letter-spacing: 4px;
 }
+
+/* placeholder__header
+==================*/
 .placeholder__header {
   display: flex;
   padding: 20px 40px;
@@ -77,4 +82,24 @@ body {
 }
 .holder__button:hover {
   background-color: rgb(201, 65, 65);
+}
+
+/* menu__bar
+==================*/
+
+.menu__bar {
+  padding-top: 10px;
+  padding-left: 70px;
+  word-spacing: 17px;
+}
+.menu__bar__el {
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration-line: none;
+  color: rgb(245, 241, 241);
+}
+
+.menu__bar__el:hover {
+  color: rgb(226, 78, 78);
+  transition: backgrouncolor 0.1s linear;
 }
