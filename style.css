@@ -37,7 +37,8 @@ body {
   background-color: rgb(85, 84, 84);
 }
 .btn:hover {
-  background-color: rgb(53, 50, 50);
+  background-color: rgb(14, 13, 13);
+  color: red;
 }
 
 .title {
@@ -88,6 +89,8 @@ body {
 ==================*/
 
 .menu__bar {
+  display: flex;
+  align-content: space-around;
   padding-top: 10px;
   padding-left: 70px;
   word-spacing: 17px;
@@ -102,4 +105,20 @@ body {
 .menu__bar__el:hover {
   color: rgb(226, 78, 78);
   transition: backgrouncolor 0.1s linear;
+}
+
+.title__sort__by {
+  margin-left: 200px;
+
+  font-size: 15px;
+  color: rgb(187, 187, 187);
+}
+.data__release {
+  margin-left: 30px;
+  border: 0px;
+  color: rgb(187, 187, 187);
+  background-color: rgb(44, 43, 43);
+  border-radius: 4px;
+}
+.menu__bar__nav {
 }
