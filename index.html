@@ -4,215 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@100&display=swap"
-      rel="stylesheet"
-    />
-    <title>Netflix</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Border</title>
   </head>
+
   <body>
-    <header class="header">
-      <div class="header__container">
-        <div class="header_logo">
-          <img src="./img/logo.png" alt="NETFLIX" />
-        </div>
-        <div class="header__button">
-          <form>
-            <button class="btn" type="button">+ ADD MOVIE</button>
-          </form>
-        </div>
-      </div>
-      <div class="title">
-        <h1>FIND YOUR MOVIE</h1>
-      </div>
-      <div class="placeholder__header">
-        <form>
-          <input
-            class="holder"
-            type="text"
-            placeholder="What do you want to watch?"
-          />
-        </form>
-        <form>
-          <button class="holder__button" type="button">SEARCH</button>
-        </form>
-      </div>
-    </header>
-    <div class="menu__bar">
-      <div class="menu__bar__nav">
-        <nav>
-          <ul>
-            <li>
-              <a
-                class="menu__bar__el"
-                href="https://www.netflix.com/by-ru/"
-                target="_blank"
-                >ALL</a
-              >
-            </li>
-            <li>
-              <a
-                class="menu__bar__el"
-                href="https://kinogo.biz/dokumentalnye/"
-                target="_blank"
-                >DOCUMENTARY</a
-              >
-            </li>
-            <li>
-              <a
-                class="menu__bar__el"
-                href="https://kinogo.biz/komedia/"
-                target="_blank"
-                >COMEDY</a
-              >
-            </li>
-            <li>
-              <a
-                class="menu__bar__el"
-                href="https://kinogo.biz/uzhasy/"
-                target="_blank"
-                >HORROR</a
-              >
-            </li>
-            <li>
-              <a
-                class="menu__bar__el"
-                href="https://kinogo.biz/detektiv/"
-                target="_blank"
-                >CRIME</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="title__sort__by">
-        <h3>sort by</h3>
-      </div>
-      <div class="menu__release">
-        <form action="#">
-          <select class="data__release" name="data__release" id="">
-            <option value="2022">2022</option>
-            <option value="2022">2021</option>
-            <option value="2022">2020</option>
-            <option value="2022">2019</option>
-            <option value="2022">2018</option>
-            <option value="2022">2017</option>
-            <option value="2022">2016</option>
-            <option value="2022">2015</option>
-            <option value="2022">2014</option>
-            <option value="2022">2013</option>
-            <option value="2022">2012</option>
-            <option value="2022">2011</option>
-            <option value="2022">2010</option>
-          </select>
-        </form>
-      </div>
-    </div>
-    <div class="movies">
-      <div class="item__movies">
-        <img src="/img/1.jpg" alt="Mad dogs" />
-        <div class="movie__title">
-          <a
-            class="movie__link"
-            href="https://www.kinopoisk.ru/film/394/"
-            target="_blank"
-            >Mad Dogs</a
-          >
-        </div>
-        <div class="movie__genre">Action & Adventure</div>
-      </div>
-      <div class="item__movies">
-        <img src="/img/2.jpg" alt="Four rooms" />
-        <div class="movie__title">
-          <a
-            class="movie__link"
-            href="https://www.kinopoisk.ru/film/394/"
-            target="_blank"
-          >
-            Four rooms</a
-          >
-        </div>
-        <div class="movie__genre">Action & Adventure</div>
-      </div>
-      <div class="item__movies">
-        <img src="/img/3.jpg" alt="From dusk till dawn" />
-        <div class="movie__title">
-          <a
-            class="movie__link"
-            href="https://www.kinopoisk.ru/film/394/"
-            target="_blank"
-            >From dusk till dawn</a
-          >
-        </div>
-        <div class="movie__genre">Action & Adventure</div>
-      </div>
-      <div class="item__movies">
-        <img src="/img/4.jpg" alt="Desperate" />
-        <div class="movie__title">
-          <a
-            class="movie__link"
-            href="https://www.kinopoisk.ru/film/394/"
-            target="_blank"
-          >
-            Desperate</a
-          >
-        </div>
-        <div class="movie__genre">Action & Adventure</div>
-      </div>
-      <div class="item__movies">
-        <img src="/img/5.jpg" alt="Lock, stock and two smoking barrels" />
-        <div class="movie__title">
-          <a
-            class="movie__link"
-            href="https://www.kinopoisk.ru/film/394/"
-            target="_blank"
-            >Lock, stock and two smoking barrels</a
-          >
-        </div>
-        <div class="movie__genre">Action & Adventure</div>
-      </div>
-      <div class="item__movies">
-        <img src="/img/6.jpg" alt="Revolver" />
-        <div class="movie__title">
-          <a
-            class="movie__link"
-            href="https://www.kinopoisk.ru/film/394/"
-            target="_blank"
-          >
-            Revolver</a
-          >
-        </div>
-        <div class="movie__genre">Action & Adventure</div>
-      </div>
-      <div class="item__movies">
-        <img src="/img/17.jpg" alt="Ray Donovan" />
-        <div class="movie__title">
-          <a
-            class="movie__link"
-            href="https://www.kinopoisk.ru/film/394/"
-            target="_blank"
-            >Ray Donovan</a
-          >
-        </div>
-        <div class="movie__genre">Action & Adventure</div>
-      </div>
-      <div class="item__movies">
-        <img
-          src="/img/9.jpg"
-          alt="Doctor Strange: In the Multiverse of Madness"
-        />
-        <div class="movie__title">
-          <a
-            class="movie__link"
-            href="https://www.kinopoisk.ru/film/394/"
-            target="_blank"
-            >Doctor Strange: In the Multiverse of Madness</a
-          >
-        </div>
-        <div class="movie__genre">Action & Adventure</div>
-      </div>
+    <div class="border">
+      <p class="text">
+        Эта теория была распространена в Древнем Китае, Вавилоне, Индии и
+        Древнем Египте в качестве альтернативы креационизму, с которым она
+        сосуществовала. Аристотель (384—322 гг. до н. э.), которого часто
+        провозглашают основателем биологии, придерживался теории спонтанного
+        зарождения жизни. Согласно этой гипотезе, определённые «частицы»
+        вещества содержат некое «активное начало», которое при подходящих
+        условиях может создать живой организм. Аристотель был прав, считая, что
+        это активное начало содержится в оплодотворённом яйце, но ошибочно
+        полагал, что оно присутствует также в солнечном свете, тине и гниющем
+        мясе. С распространением христианства теория спонтанного зарождения
+        жизни оказалась не в чести, но эта идея всё продолжала существовать
+        где-то на заднем плане в течение ещё многих веков[источник не указан
+        3378 дней]. Вплоть до XIX века в научной среде существовало
+        представление о «жизненной силе» — некой всепроникающей субстанции,
+        заставляющей зарождаться живое из неживого (лягушек — из болота, личинок
+        мух — из мяса, червей — из почвы и т. д.). Известный учёный Ван Гельмонт
+        описал эксперимент, в котором он за три недели якобы создал мышей. Для
+        этого нужны были грязная рубашка, тёмный шкаф и горсть пшеницы. Активным
+        началом в процессе зарождения мыши Ван Гельмонт считал человеческий пот.
+        В 1668 году итальянский биолог и врач Франческо Реди подошёл к проблеме
+        возникновения жизни более строго и подверг сомнению теорию спонтанного
+        зарождения. Реди установил, что маленькие белые червячки, появляющиеся
+        на гниющем мясе — это личинки мух. Проведя ряд экспериментов, он получил
+        данные, подтверждающие мысль о том, что жизнь может возникнуть только из
+        предшествующей жизни (концепция биогенеза). В горшочках с мясом,
+        накрытых марлей, мухи не заводились. Эти эксперименты, однако, не
+        привели к отказу от идеи самозарождения, и хотя эта идея несколько
+        отошла на задний план, она продолжала оставаться главной версией
+        зарождения жизни. В то время как эксперименты Реди, казалось бы,
+        опровергли спонтанное зарождение мух, первые микроскопические
+        исследования Антони ван Левенгука усилили эту теорию применительно к
+        микроорганизмам. Сам Левенгук не вступал в споры между сторонниками
+        биогенеза и спонтанного зарождения, однако его наблюдения под
+        микроскопом давали пищу обеим теориям. В 1860 году этой проблемой
+        занялся французский химик Луи Пастер. Однако Пастер не ставил перед
+        собой вопрос о происхождении жизни. Он интересовался проблемой
+        самозарождения микробов в связи с возможностью борьбы с инфекционными
+        заболеваниями. Если «жизненная сила» существует, то бороться с болезнями
+        бессмысленно: сколько микробов ни уничтожай, они самозародятся вновь.
+        Если же микробы всегда приходят извне, тогда есть шанс.[5] Своими
+        опытами он доказал, что бактерии вездесущи, и что неживые материалы
+        легко могут быть заражены живыми существами, если их не стерилизовать
+        должным образом. Учёный кипятил в воде различные среды, в которых могли
+        бы образоваться микроорганизмы. При дополнительном кипячении
+        микроорганизмы и их споры погибали. Пастер присоединил к S-образной
+        трубке запаянную колбу со свободным концом. Споры микроорганизмов
+        оседали на изогнутой трубке и не могли проникнуть в питательную среду.
+        Хорошо прокипячённая питательная среда оставалась стерильной, в ней не
+        обнаруживалось зарождения жизни, несмотря на то, что доступ воздуха и
+        «жизненной силы» был обеспечен. Вывод: «жизненной силы» не существует, и
+        в настоящее время микроорганизмы не самозарождаются из неживого
+        субстрата. Однако этот эксперимент вовсе не доказывает, что живое вообще
+        никогда не может самозарождаться из неживого. Эксперимент Пастера
+        доказывает лишь невозможность зарождения микроорганизмов конкретно в тех
+        питательных средах, которые он использовал, при весьма ограниченном
+        диапазоне условий и в течение коротких промежутков времени. Но он не
+        доказывает невозможность самозарождения жизни в течение сотен миллионов
+        лет химической эволюции, в самых разных средах и при разных условиях
+        (особенно при условиях ранней Земли: в бескислородной атмосфере,
+        наполненной метаном, углекислым газом, аммиаком и циановодородом, при
+        пропускании электрических разрядов и т. д.). Этот эксперимент в принципе
+        не может касаться вопроса об изначальном зарождении жизни хотя бы
+        потому, что в своих опытах Пастер использовал мясные и дрожжевые бульоны
+        (а также мочевину и кровь), а до зарождения жизни не было ни дрожжей, ни
+        мяса. И тем более эксперимент Пастера никак не опровергает современные
+        научные теории и гипотезы о зарождении жизни в глубоководных горячих
+        гидротермальных источниках, в геотермальных источниках, на минеральных
+        кристаллах, в космическом пространстве, в протопланетной туманности, из
+        которой сформировалась Солнечная система, и в тому подобных местах.
+      </p>
     </div>
   </body>
 </html>
-<!--  -->
