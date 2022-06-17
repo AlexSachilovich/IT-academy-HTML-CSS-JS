@@ -1,160 +1,55 @@
 body {
-  background-color: rgb(44, 43, 43);
-  font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin: 0;
 }
-/* Header
-==================*/
-
+table {
+}
+img {
+  height: 300px;
+  width: 500px;
+}
 .header {
-  height: 350px;
-  width: 100%;
-  border-bottom: 5px solid rgb(85, 84, 84);
-  border-top: 5px solid rgb(85, 84, 84);
+  background-color: aqua;
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+  font-size: 25px;
+  height: 80px;
 }
-
-.header__container {
-  padding-left: 20px;
-  padding-right: 30px;
-  margin-top: 30px;
-  height: 40px;
-  display: flex;
-  justify-content: space-between;
-}
-
-/* Button
-==================*/
-.btn {
-  transition: background 0.1s linear;
-  cursor: pointer;
-  border-width: 0px;
-  font-size: 17px;
-  display: inline-block;
+.sidebar {
+  background-color: yellow;
+  width: 300px;
   vertical-align: top;
-  padding: 10px 14px;
-  font-weight: 700;
-  border-radius: 4px;
-  color: rgb(201, 46, 58);
-  background-color: rgb(85, 84, 84);
 }
-.btn:hover {
-  background-color: rgb(14, 13, 13);
-  color: red;
-}
-
-.title {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  margin-top: 40px;
-  margin-left: 70px;
-  letter-spacing: 4px;
-}
-
-/* placeholder__header
-==================*/
-.placeholder__header {
-  display: flex;
-  padding: 20px 40px;
-  text-align: left;
-  margin-left: 26px;
-}
-
-.holder {
-  height: 30px;
-  width: 400px;
+a {
   font-size: 20px;
-  border-color: black;
-  border-radius: 7px;
-  color: rgb(177, 170, 170);
-  background-color: rgb(44, 43, 43);
 }
-.holder__button {
+
+.logo {
+  background-color: white;
+  text-align: center;
+}
+.main {
+  font-size: 23px;
+  background-color: white;
+  vertical-align: bottom;
+}
+.title {
+  height: 100px;
   font-weight: bold;
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  background-color: rgb(235, 82, 82);
-  height: 36px;
-  width: 150px;
-  border-radius: 5px;
-  letter-spacing: 2px;
-  border-width: 0px;
-  margin-left: 10px;
-  cursor: pointer;
-  transition: background 0.1s linear;
+  font-size: 30px;
 }
-.holder__button:hover {
-  background-color: rgb(201, 65, 65);
-}
-
-/* menu__bar
-==================*/
-
-.menu__bar {
-  display: flex;
-  align-content: space-around;
-  padding-top: 10px;
-  padding-left: 70px;
-  word-spacing: 17px;
-  border-bottom: 1px solid rgb(85, 84, 84);
-}
-.menu__bar__nav ul li {
-  display: flex;
-  display: inline;
-}
-.menu__bar__el {
+.sports {
+  vertical-align: bottom;
   font-weight: bold;
-  font-size: 12px;
-  text-decoration-line: none;
-  color: rgb(245, 241, 241);
+  padding: 25px;
+  font-size: 25px;
 }
-
-.menu__bar__el:hover {
-  color: rgb(226, 78, 78);
-  transition: backgrouncolor 0.1s linear;
-}
-
-.title__sort__by {
-  margin-left: 200px;
-
-  font-size: 15px;
-  color: rgb(187, 187, 187);
-}
-.data__release {
-  margin-left: 30px;
-  border: 0px;
-  color: rgb(187, 187, 187);
-  background-color: rgb(44, 43, 43);
-  border-radius: 4px;
-}
-.menu__bar__nav {
-}
-
-.movies {
-  color: #fff;
-  margin-top: 35px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.movie__title {
-  color: rgb(247, 235, 235);
-  font-size: 22px;
-  margin-top: 10px;
-}
-
-.movie__genre {
-  margin-bottom: 55px;
-  margin-top: 5px;
-  color: rgb(250, 250, 250);
-  font-size: 15px;
-}
-.item__movies {
-  width: 25%;
-  color: #fff;
-}
-.movie__link {
-  color: #fff;
-  text-decoration: none;
-}
-
-.movie__link:hover {
-  color: rgb(231, 47, 47);
+.footer {
+  background-color: aqua;
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+  height: 80px;
+  font-size: 25px;
 }
