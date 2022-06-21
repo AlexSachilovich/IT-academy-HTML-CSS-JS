@@ -1,0 +1,27 @@
+.block {
+  margin-bottom: 50px;
+}
+.row {
+  margin-top: 20px;
+}
+
+.row-container {
+  display: inline-block;
+  margin: 20px 0;
+}
+.row-container__link {
+  color: green;
+  border-right: 5px solid red;
+  padding: 20px 10px;
+}
+.row-container__link:hover {
+  color: red;
+}
+
+.row-container__link5 {
+  color: green;
+  padding: 20px 10px;
+}
+.row-container__link5:hover {
+  color: red;
+}
