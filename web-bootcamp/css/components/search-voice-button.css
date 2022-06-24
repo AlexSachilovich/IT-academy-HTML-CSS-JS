@@ -1,0 +1,13 @@
+.search-voice-button {
+    background: transparent;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition) background;
+}
+
+.search-voice-button:hover {
+    background: var(--color-black-47);
+}

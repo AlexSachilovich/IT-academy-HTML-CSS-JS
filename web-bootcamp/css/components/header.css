@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+}
+
+.header__logo {
+    visibility: visible;
+}
+
+.header__search-voice {
+    margin-left: 8px;
+}
+
+
+@media screen and (max-width: 768px)  {
+    .header__logo {
+        visibility: visible;
+    }
+}

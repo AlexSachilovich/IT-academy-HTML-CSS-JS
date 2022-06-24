@@ -1,0 +1,31 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-form__input {
+    background: transparent;
+    height: 36px;
+    width: 478px;
+    border: 1px solid var(--color-black-32);
+    border-radius: 2px 0px 0px 2px;
+    border-right: none;
+    padding: 10px 6px;
+}
+
+.search-form__button {
+    background: var(--color-black-32);
+    border-radius: 0px 2px 2px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition) background;
+}
+
+.search-form__button:hover {
+    background: var(--color-black-47);
+}
