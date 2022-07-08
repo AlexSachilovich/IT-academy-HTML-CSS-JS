@@ -1,0 +1,81 @@
+.container {
+  display: inline;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.text_footer {
+  position: relative;
+  top: 500px;
+}
+
+.blok {
+  display: block;
+  position: absolute;
+}
+
+.blok li {
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 0px;
+  width: 72px;
+  height: 72px;
+}
+
+.blok li a img {
+  position: absolute;
+}
+
+.blok__1 {
+  left: 320px;
+  top: 50px;
+  width: 210px;
+  z-index: 0;
+}
+
+.blok__2 {
+  left: 520px;
+  top: 50px;
+  width: 200px;
+  z-index: 1;
+}
+
+.blok__3 {
+  left: 420px;
+  bottom: -360px;
+  z-index: 2;
+}
+
+.blok__4 {
+  bottom: -280px;
+  right: -260px;
+  z-index: 3;
+}
+
+.blok li a:hover img.blok__1 {
+  display: block;
+  margin-top: -28px;
+  margin-left: -28px;
+  z-index: 4;
+}
+
+.blok li a:hover img.blok__2 {
+  display: block;
+  margin-top: -28px;
+  margin-left: -28px;
+  z-index: 4;
+}
+
+.blok li a:hover img.blok__3 {
+  display: block;
+  margin-top: -28px;
+  margin-left: -28px;
+  z-index: 4;
+}
+
+.blok li a:hover img.blok__4 {
+  display: block;
+  margin-top: -28px;
+  margin-left: -28px;
+  z-index: 4;
+}
