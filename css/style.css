@@ -1,0 +1,40 @@
+* {
+  font-size: 20px;
+  margin: 3px;
+  padding: 0;
+}
+.container {
+  border: red solid 3px;
+  min-width: 500px;
+  max-width: 1000px;
+  padding: 10px;
+  margin: 20px;
+}
+.form {
+  margin-top: 10px;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input__title {
+  width: 100%;
+}
+
+.chapter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.chapter__select {
+  width: 100%;
+}
+
+.publication {
+  display: flex;
+  flex-wrap: wrap;
+}
+.textarea__comments {
+  width: 100%;
+}
