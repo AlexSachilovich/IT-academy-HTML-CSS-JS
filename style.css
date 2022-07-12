@@ -22,6 +22,12 @@ body {
   text-decoration: underline;
   background-color: rgb(157, 229, 157);
   padding: 15px;
+  cursor: pointer;
+}
+
+
+.button:hover {
+  background-color: rgb(56, 189, 56);
 }
 .main {
   background-color: rgb(250, 250, 78);
