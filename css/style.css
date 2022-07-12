@@ -10,3 +10,13 @@ a {
   font-size: 18px;
   color: rgb(31, 31, 218);
 }
+
+.block {
+  width: 800px;
+  height: 600px;
+  background: url('../img/svg\ \(1\).svg');
+}
+
+.block:hover {
+  background: url('../img/svg\ \(2\).svg');
+}
